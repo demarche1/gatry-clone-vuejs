@@ -89,7 +89,7 @@
             whitespace-nowrap
             overflow-hidden
           "
-          :to="`/edit/${promotion.id}`"
+          :to="{ name: 'Editar Promoção', params: { id: promotion.id } }"
           ><button>Editar</button></router-link
         >
         <button @click="deletePromotion(promotion.id)">

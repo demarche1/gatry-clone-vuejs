@@ -1,7 +1,9 @@
 <template>
   <div class="max-w-3xl mx-auto p-2">
     <div class="mt-5">
-      <router-link class="p-3 bg-green-500 text-white rounded-md" to="/create"
+      <router-link
+        class="p-3 bg-green-500 text-white rounded-md"
+        :to="{ name: 'Nova Promoção' }"
         >Nova Promoção</router-link
       >
     </div>
